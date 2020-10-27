@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.saerch{
+  display: inline-flex;
+  background-color: white;
+  
+  
+}
+.bi-search{
+  margin-left: 15px;
+  margin-top: 20px;
+  color: coral;
+  border: none;
+  background-color: white;
+  padding-right: 5px;
+  
+}
+#container{
+  background:url('../src/img/chefs-2.jpg') ;
+  height: 550px;
+  
+}
+
+.saerch input{
+  padding: 5%;
+  width: 300px;
+  border: none;
+
+}
+#container hr{
+  width: 330px;
+}
+.select{
+  padding: 1%;
+  width: 330px;
+  border: none;
+  color: coral;
+  
+}
+.select option{
+  color: black;
+
+}
+
+#container button{
+  padding: 1%;
+  width: 330px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(252, 185, 0);
+  color:white;
+}
+#event{
+  padding-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 402px;
+  
+}
+
+.filtrage{
+  margin-bottom: 35px;
+}
+
+.filtrag{
+  margin-bottom: 35px;
+}
+h5{
+  color: white;
+  
+}
+
+.back{
+  background-color: rgba(3, 3, 2, 0.74);
+  padding-bottom: 120px;
+  width: 100%;
+
+
+}
+
+
+/*** Deuxieme component***/
+.Title{
+  color: chocolate;
+}
+#TheCard{
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+.card-body button{
+  float: left;
+}
+
+.card-body p{
+  float: left;
+  
+}
+.card-body h4{
+  float: left;
+  text-align:left;
+}
+
+.bonjour{
+  margin-top: 50px;
+}
+
+.card-text{
+  text-align: left;
+}
+
+#btn{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+/*****   end component*****/
+
+.bonsoir svg{
+  float: left;
+  margin-right: 30px;
+  margin-top: 7px;
+}
+
+.bonsoir{
+  color: chocolate;
+}
+
+#btno{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-top: 20px;
+
+}
+#plCard{
+  margin-left: 145px;
+}
+
+
+
+
